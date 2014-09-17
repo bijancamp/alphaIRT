@@ -32,7 +32,7 @@ standard error originally described by Maydeu-Olivares
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and Coffman (2007). This 
 computation does not use item parameters.
 
-#### Values
+#### Value
 Returns some or all of the following objects:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`alpha`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
