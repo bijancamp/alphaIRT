@@ -33,7 +33,7 @@ standard error originally described by Maydeu-Olivares
 computation does not use item parameters.
 
 #### Value
-Returns some or all of the following objects:  
+Returns a list containing some or all of the following objects:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`alpha`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;Classical Cronbach's alpha coefficient  
