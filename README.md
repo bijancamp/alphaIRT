@@ -28,11 +28,12 @@ of the population of trait values
 normal distribution of the population of trait values
 `MaydeuOlivares`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If TRUE, then compute the 
-standard error originally described by Maydeu-Olivares and Coffman (2007). This 
+standard error originally described by Maydeu-Olivares  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and Coffman (2007). This 
 computation does not use item parameters.
 
 #### Returns
-Returns some or all of the following objects:
+Returns some or all of the following objects:  
 `alpha`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classical Cronbach's alpha 
 coefficient  
@@ -41,7 +42,7 @@ coefficient
 alpha  
 `SE.IRT`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IRT-based standard error of
-sample coefficient alpha
+sample coefficient alpha  
 `SE.MaydeuOlivares`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard error originally 
 described by Maydeu-Olivares and Coffman (2007)
