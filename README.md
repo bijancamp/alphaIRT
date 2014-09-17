@@ -25,7 +25,7 @@ responses of N examinees to k items
 of the population of trait values  
 `sd`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the 
-normal distribution of the population of trait values
+normal distribution of the population of trait values  
 `MaydeuOlivares`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If TRUE, then compute the 
 standard error originally described by Maydeu-Olivares  
