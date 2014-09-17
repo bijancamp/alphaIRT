@@ -1,47 +1,47 @@
 alphaIRT <- function(pars, X = NULL, mean = 0, sd = 1, MaydeuOlivares = FALSE) {
-  #---------------------------------------------------------------#
-  # alphaIRT
-  # Bijan D. Camp
-  # March 02, 2014
-  #
-  # Description:         : Predicts coefficient alpha from a set of
-  #                        IRT parameters. If a data set X is
-  #                        provided, then an estimate of the standard
-  #                        error of sample coefficient alpha is also
-  #                        computed. For now, only the dichotomous
-  #                        three-parameter logistic model (3PLM) of
-  #                        IRT parameters, and the normal
-  #                        distribution with supplied mean and sd
-  #                        values, are supported.
-  #
-  # Arguments:
-  #       pars           : k x 3 matrix of item parameters for the
-  #                        3PLM
-  #       X              : N x k matrix of binary responses of N
-  #                        examinees to k items
-  #       mean           : Mean of the normal distribution of the
-  #                        population of trait values
-  #       sd             : Standard deviation of the normal
-  #                        distribution of the population of trait
-  #                        values
-  #       MaydeuOlivares : If TRUE, then compute the standard error
-  #                        originally described by Maydeu-Olivares
-  #                        and Coffman (2007). This computation
-  #                        does not use item parameters.
-  #
-  # Returns:
-  #       alpha          : Classical Cronbach's alpha coefficient
-  #       alpha.IRT      : IRT-based sample coefficient alpha
-  #       SE.IRT         : IRT-based standard error of sample
-  #                        coefficient alpha
-  #
-  # References:
-  #       Maydeu-Olivares, A. & Coffman, D. L. (2007).
-  #             Asymptotically distribution-free (ADF) interval
-  #             estimation of coefficient alpha. Psychological
-  #             Methods, 12(2), 157–176.
-  #             doi:10.1037/1082-989X.12.2.157
-  #---------------------------------------------------------------#
+#---------------------------------------------------------------#
+# alphaIRT
+# Bijan D. Camp
+# March 02, 2014
+#
+# Description:         : Predicts coefficient alpha from a set of
+#                        IRT parameters. If a data set X is
+#                        provided, then an estimate of the standard
+#                        error of sample coefficient alpha is also
+#                        computed. For now, only the dichotomous
+#                        three-parameter logistic model (3PLM) of
+#                        IRT parameters, and the normal
+#                        distribution with supplied mean and sd
+#                        values, are supported.
+#
+# Arguments:
+#       pars           : k x 3 matrix of item parameters for the
+#                        3PLM
+#       X              : N x k matrix of binary responses of N
+#                        examinees to k items
+#       mean           : Mean of the normal distribution of the
+#                        population of trait values
+#       sd             : Standard deviation of the normal
+#                        distribution of the population of trait
+#                        values
+#       MaydeuOlivares : If TRUE, then compute the standard error
+#                        originally described by Maydeu-Olivares
+#                        and Coffman (2007). This computation
+#                        does not use item parameters.
+#
+# Returns:
+#       alpha          : Classical Cronbach's alpha coefficient
+#       alpha.IRT      : IRT-based sample coefficient alpha
+#       SE.IRT         : IRT-based standard error of sample
+#                        coefficient alpha
+#
+# References:
+#       Maydeu-Olivares, A. & Coffman, D. L. (2007).
+#             Asymptotically distribution-free (ADF) interval
+#             estimation of coefficient alpha. Psychological
+#             Methods, 12(2), 157–176.
+#             doi:10.1037/1082-989X.12.2.157
+#---------------------------------------------------------------#
 
     ## Test length
     num.items <- nrow(pars)
