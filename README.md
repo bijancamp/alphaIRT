@@ -50,6 +50,7 @@ Coffman (2007)
 
 #### References
 Maydeu-Olivares, A. & Coffman, D. L. (2007). Asymptotically distribution-free 
-(ADF) interval estimation of coefficient alpha. *Psychological Methods*, *12*(2), 
-157–176.  
-doi:10.1037/1082-989X.12.2.157
+(ADF) interval  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;estimation of coefficient alpha. *Psychological 
+Methods*, *12*(2), 157–176.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;doi:10.1037/1082-989X.12.2.157
