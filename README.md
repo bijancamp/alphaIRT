@@ -23,30 +23,31 @@ responses of N examinees to k items
 `mean`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean of the normal distribution 
 of the population of trait values  
-`sd`
+`sd`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the 
 normal distribution of the population of trait values
-`MaydeuOlivares`
+`MaydeuOlivares`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If TRUE, then compute the 
 standard error originally described by Maydeu-Olivares and Coffman (2007). This 
 computation does not use item parameters.
 
 #### Returns
 Returns some or all of the following objects:
-`alpha`
+`alpha`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classical Cronbach's alpha 
 coefficient  
-`alpha.IRT`
+`alpha.IRT`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IRT-based sample coefficient 
 alpha  
-`SE.IRT`
+`SE.IRT`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IRT-based standard error of
 sample coefficient alpha
-`SE.MaydeuOlivares`
+`SE.MaydeuOlivares`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard error originally 
 described by Maydeu-Olivares and Coffman (2007)
 
 #### References
 Maydeu-Olivares, A. & Coffman, D. L. (2007). Asymptotically distribution-free 
 (ADF) interval estimation of coefficient alpha. *Psychological Methods*, *12*(2), 
-157–176. doi:10.1037/1082-989X.12.2.157
+157–176.  
+doi:10.1037/1082-989X.12.2.157
