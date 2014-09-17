@@ -29,11 +29,13 @@ alphaIRT <- function(pars, X = NULL, mean = 0, sd = 1, MaydeuOlivares = FALSE) {
   #                        and Coffman (2007). This computation
   #                        does not use item parameters.
   #
-  # Returns:
-  #       alpha          : Classical Cronbach's alpha coefficient
-  #       alpha.IRT      : IRT-based sample coefficient alpha
-  #       SE.IRT         : IRT-based standard error of sample
-  #                        coefficient alpha
+  # Returns a list containing some or all of the following objects:
+  #       alpha             : Classical Cronbach's alpha coefficient
+  #       alpha.IRT         : IRT-based sample coefficient alpha
+  #       SE.IRT            : IRT-based standard error of sample
+  #                           coefficient alpha
+  #       SE.MaydeuOlivares : Standard error originally described by
+  #                           Maydeu-Olivares and Coffman (2007)
   #
   # References:
   #       Maydeu-Olivares, A. & Coffman, D. L. (2007).
