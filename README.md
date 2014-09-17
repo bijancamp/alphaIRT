@@ -21,10 +21,10 @@ for the 3PLM
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N x k matrix of binary 
 responses of N examinees to k items  
 `mean`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mean of the normal distribution 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean of the normal distribution 
 of the population of trait values  
 `sd`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;standard deviation of the 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the 
 normal distribution of the population of trait values
 `MaydeuOlivares`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If TRUE, then compute the 
@@ -36,7 +36,7 @@ computation does not use item parameters.
 Returns a list containing some or all of the following objects:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`alpha`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;classical Cronbach's alpha coefficient  
+&nbsp;&nbsp;&nbsp;Classical Cronbach's alpha coefficient  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`alpha.IRT`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;IRT-based sample coefficient alpha  
@@ -45,7 +45,7 @@ Returns a list containing some or all of the following objects:
 &nbsp;&nbsp;&nbsp;IRT-based standard error of sample coefficient alpha  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`SE.MaydeuOlivares`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;standard error originally described by Maydeu-Olivares and 
+&nbsp;&nbsp;&nbsp;Standard error originally described by Maydeu-Olivares and 
 Coffman (2007)
 
 #### References
