@@ -15,10 +15,10 @@ values, are supported.
 
 #### Arguments
 `pars`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k x 3 matrix of item parameters 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kx3 matrix of item parameters 
 for the 3PLM  
 `X`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N x k matrix of binary 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nxk matrix of binary 
 responses of N examinees to k items  
 `mean`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean of the normal distribution 
