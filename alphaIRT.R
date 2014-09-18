@@ -15,9 +15,9 @@ alphaIRT <- function(pars, X = NULL, mean = 0, sd = 1, MaydeuOlivares = FALSE) {
   #                        values, are supported.
   #
   # Arguments:
-  #       pars           : k x 3 matrix of item parameters for the
+  #       pars           : kx3 matrix of item parameters for the
   #                        3PLM
-  #       X              : N x k matrix of binary responses of N
+  #       X              : Nxk matrix of binary responses of N
   #                        examinees to k items
   #       mean           : Mean of the normal distribution of the
   #                        population of trait values
