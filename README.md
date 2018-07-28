@@ -1,7 +1,7 @@
 alphaIRT
 ========
 
-R program for predicting coefficient alpha from a set of IRT parameters
+Predicts coefficient alpha from a set of IRT parameters
 
 #### Description
 Predicts coefficient alpha from a set of IRT parameters. If a data set X is 
