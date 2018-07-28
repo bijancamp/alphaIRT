@@ -1,7 +1,7 @@
 alphaIRT
 ========
 
-Predicts coefficient alpha from a set of IRT parameters
+Predicts coefficient alpha from a set of IRT parameters.
 
 #### Description
 Predicts coefficient alpha from a set of IRT parameters. If a data set `X` is provided, then an estimate of the standard error of sample coefficient alpha is also computed. For now, only the dichotomous three-parameter logistic model (3PLM) of IRT parameters, and the normal distribution with supplied mean and sd values, are supported.
