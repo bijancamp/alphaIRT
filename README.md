@@ -10,12 +10,12 @@ Predicts coefficient alpha from a set of IRT parameters. If a data set `X` is pr
 `alphaIRT(pars, X = NULL, mean = 0, sd = 1, MaydeuOlivares = FALSE)`
 
 #### Arguments
-| Argument         | Description                                                                      |
-| ---------------- |--------------------------------------------------------------------------------- |
-| `pars`           | 𝑘 × 3 matrix of item parameters for the 3PLM.                                    |
-| `X`              | 𝑁 × 𝑘 matrix of binary responses of 𝑁 examinees to 𝑘 items.                     |
-| `mean`           | Mean of the normal distribution of the population of trait values.               |
-| `sd`             | Standard deviation of the normal distribution of the population of trait values. |
+| Argument         | Description                                                                       |
+| ---------------- | --------------------------------------------------------------------------------- |
+| `pars`           | 𝑘 × 3 matrix of item parameters for the 3PLM.                                     |
+| `X`              | 𝑁 × 𝑘 matrix of binary responses of 𝑁 examinees to 𝑘 items.                      |
+| `mean`           | Mean of the normal distribution of the population of trait values.                |
+| `sd`             | Standard deviation of the normal distribution of the population of trait values.  |
 | `MaydeuOlivares` | If `TRUE`, then compute the standard error originally described by Maydeu-Olivares and Coffman (2007). This computation does not use item parameters. |
 
 #### Value
