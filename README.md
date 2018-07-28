@@ -27,7 +27,7 @@ of the population of trait values
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the 
 normal distribution of the population of trait values  
 `MaydeuOlivares`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If TRUE, then compute the 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If `TRUE`, then compute the 
 standard error originally described by Maydeu-Olivares  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and Coffman (2007). This 
 computation does not use item parameters.
